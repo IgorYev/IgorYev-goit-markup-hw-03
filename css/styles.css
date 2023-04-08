@@ -338,7 +338,7 @@ margin-bottom: 16px;
     padding-bottom: 120px;
 }
 .portfolio-cards{
-    padding-top: 96px;
+    /* padding-top: 96px; */
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -407,6 +407,7 @@ margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--primary-text-color);
+
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 32px;
