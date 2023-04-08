@@ -147,7 +147,8 @@ body{
     background-color: var(--background-color);
 }
 .hero-section{
-    padding-bottom: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero{
     background: var(--tittle-text-color);
@@ -188,6 +189,7 @@ body{
     margin-top: 48px;
     height: 56px;
     border: none;
+    min-width: 169px;
     }
     
     .btn-link:hover,
@@ -201,8 +203,6 @@ body{
 /* SECTION ОСОБЛИВОСТІ */
 .img{
     display: block;
-    /* max-width: 100%;
-    height: auto; */
 }
 .content{
     font-family: 'Roboto';
@@ -211,7 +211,7 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--tittle-text-color);
-
+    margin-bottom: 8px;
 }
 .four-text{
     display: flex;
@@ -238,9 +238,6 @@ body{
     text-transform: capitalize;
     color: var(--tittle-text-color);
     margin-bottom: 72px;
-}
-.peculiarities{
-    margin-bottom: 8px;
 }
 .content-list-item{
     flex-basis: calc((100% - 72px) / 4);
@@ -289,7 +286,15 @@ line-height: 1.2;
 align-items: left;
 letter-spacing: 0.02em;
 color: var(--tittle-text-color);
+margin-bottom: 8px;
+text-align: center;
 }
+
+.team-content{
+    padding: 32px 16px;
+    border-radius: 0px 0px 4px 4px;
+}
+
 .work-content
 {
     font-family: 'Roboto';
@@ -298,11 +303,12 @@ color: var(--tittle-text-color);
     text-align: left;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    text-align: center;
+
+     text-align: center;
 }
 
 .footer{
-    padding: 100px 0;
+    
 }
 .footer-link{
 display: inline-block;
@@ -320,9 +326,17 @@ margin-bottom: 16px;
 
 }
 .background-color{
+    padding-top: 100px;
+    padding-bottom: 100px;
     background: var(--tittle-text-color);
 }
+
+.section-portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .portfolio-cards{
+    padding-top: 96px;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
@@ -339,6 +353,7 @@ margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: var(--background-dop-color);
+    
 }
 .btn-menu{
     display: flex;
@@ -351,11 +366,12 @@ margin-bottom: 16px;
 .btn-portfolio:hover{
     color: var(--background-color);
     background-color: var(--accent-color)
+    
 }
 .btn-portfolio:focus{
-
     color: var(--background-color);
     background-color: var(--accent-color);
+    border: 1px solid transparent;
 }
 .btn-portfolio{
     border-radius: 4px;
