@@ -261,6 +261,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color:var(--tittle-text-color);
 background-color: var(--background-dop-color);
+margin-bottom: 72px;
 }
 /* OUR TEAM */
 .team-back{
